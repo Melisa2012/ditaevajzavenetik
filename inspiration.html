@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frymëzim nga Femrat në Teknologji</title>
+  <link rel="stylesheet" href="inspiration.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Seksioni i frymëzimit -->
+  <section class="inspiration">
+    <h2 class="title">Frymëzimi nga Femrat në Teknologji</h2>
+
+    <!-- Galeria e grave të shquara -->
+    <div class="gallery">
+      <div class="gallery-item" onclick="openModal('ada-lovelace')">
+        <img src="ada lovelace.png" alt="Ada Lovelace">
+        <div class="overlay">
+          <p class="text">Ada Lovelace - Pioniere e Algoritmeve</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openModal('grace-hopper')">
+        <img src="grace hopper.png" alt="Grace Hopper">
+        <div class="overlay">
+          <p class="text">Grace Hopper - Shpikëse e COBOL</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openModal('radia-perlman')">
+        <img src="radia perlman.png" alt="Radia Perlman">
+        <div class="overlay">
+          <p class="text">Radia Perlman - Shpikëse e STP</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openModal('sheryl-sandberg')">
+        <img src="sheryl sandberg.png" alt="Sheryl Sandberg">
+        <div class="overlay">
+          <p class="text">Sheryl Sandberg - Drejtoreshë Operative e Facebook</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openModal('megan-smith')">
+        <img src="megan smith.png" alt="Megan Smith">
+        <div class="overlay">
+          <p class="text">Megan Smith - Ish-Këshilltare e Teknologjisë në SHBA</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openModal('susan-wojcicki')">
+        <img src="susan wojcicki.png" alt="Susan Wojcicki">
+        <div class="overlay">
+          <p class="text">Susan Wojcicki - CEO e YouTube</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modalet për informacionet e grave -->
+  <div id="ada-lovelace" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('ada-lovelace')">&times;</span>
+      <h2>Ada Lovelace</h2>
+      <p>Pioniere e Algoritmeve, Ada Lovelace është një nga figurat më të njohura në historinë e teknologjisë. Ajo ka shkruar algoritmin e parë të njohur për një makinë të llogaritjes, duke kontribuar në krijimin e kompjuterëve të parë.</p>
+    </div>
+  </div>
+
+  <div id="grace-hopper" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('grace-hopper')">&times;</span>
+      <h2>Grace Hopper</h2>
+      <p>Shpikëse e COBOL, Grace Hopper ishte një grua e jashtëzakonshme që ndihmoi në zhvillimin e gjuhës së programimit COBOL dhe ishte një nga pionieret në fushën e shkencës kompjuterike.</p>
+    </div>
+  </div>
+
+  <div id="radia-perlman" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('radia-perlman')">&times;</span>
+      <h2>Radia Perlman</h2>
+      <p>Radia Perlman është një shkencëtare dhe inxhiniere kompjuterike e njohur për shpikjen e protokollit STP (Spanning Tree Protocol), një nga teknologjitë kyçe për rrjetet kompjuterike moderne.</p>
+    </div>
+  </div>
+
+  <div id="sheryl-sandberg" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('sheryl-sandberg')">&times;</span>
+      <h2>Sheryl Sandberg</h2>
+      <p>Sheryl Sandberg është një udhëheqëse e njohur dhe ishte Drejtoresha Operative e Facebook, duke luajtur një rol të rëndësishëm në zhvillimin e biznesit dhe marketingut të platformës.</p>
+    </div>
+  </div>
+
+  <div id="megan-smith" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('megan-smith')">&times;</span>
+      <h2>Megan Smith</h2>
+      <p>Megan Smith ka qenë ish-Këshilltare e Teknologjisë në Shtetet e Bashkuara të Amerikës dhe ka pasur një rol të rëndësishëm në zhvillimin e politikave të teknologjisë dhe inovacionit për Qeverinë e SHBA.</p>
+    </div>
+  </div>
+
+  <div id="susan-wojcicki" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('susan-wojcicki')">&times;</span>
+      <h2>Susan Wojcicki</h2>
+      <p>Susan Wojcicki është CEO e YouTube dhe ka luajtur një rol të rëndësishëm në zhvillimin dhe rritjen e YouTube, duke kontribuar në transformimin e internetit dhe medias sociale.</p>
+    </div>
+  </div>
+
+  <!-- Seksion motivues -->
+  <div class="inspiration-banner">
+    <i class="fas fa-lightbulb"></i>
+    <p>“Kur vajzat angazhohen në teknologji, bota fiton zgjidhje më të mençura dhe të barabarta.”</p>
+  </div>
+  
+ 
+<!-- Seksioni i frymëzimit -->
+<section class="inspiration-quotes">
+    <h2 class="quote-title">Thënie Frymëzuese</h2>
+    <div class="quotes">
+      <div class="quote-item">
+        <p class="quote-text">"Teknologjia është mundësia për të krijuar ndryshime pozitive." – Sheryl Sandberg</p>
+      </div>
+      <div class="quote-item">
+        <p class="quote-text">"Gratë janë motorët e së ardhmes në teknologji." – Ada Lovelace</p>
+      </div>
+      <div class="quote-item">
+        <p class="quote-text">"Kjo është koha për të përfshirë më shumë gra në teknologji." – Radia Perlman</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <script src="inspiration.js"></script>
+   <!-- Footer -->
+   <footer>
+    <p>&copy; 2025 Vajzat në Teknologji | CTA | Mentor: Muhamer Ujkani</p>
+  </footer>
+</body>
+</html>
